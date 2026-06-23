@@ -822,7 +822,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ========== FOOTER ========== */
 .footer {
-    background-color: rgba(26, 26, 46, 0.8);
+    background-color: var(--bg-dark);
     color: white;
     padding: 4rem 0 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);

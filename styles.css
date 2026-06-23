@@ -346,8 +346,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-light {
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
+    color: white;
     padding: 5rem 0;
+}
+
+.section-light .section-title {
+    color: var(--primary);
+}
+
+.section-light .section-subtitle {
+    color: #B0B0B0;
 }
 
 .section-dark .section-title {
@@ -774,13 +783,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-content h2 {
-    color: var(--bg-dark);
+    color: white;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 .cta-content p {
-    color: rgba(26, 26, 46, 0.85);
+    color: rgba(26, 26, 46, 0.9);
     font-size: 1.125rem;
     margin-bottom: 2rem;
 }
@@ -794,20 +804,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-buttons .btn-primary,
 .cta-buttons .btn-secondary {
-    background: white;
-    color: var(--primary);
-    border-color: white;
+    background: var(--primary);
+    color: var(--bg-dark);
+    border-color: var(--primary);
 }
 
 .cta-buttons .btn-secondary {
     background: transparent;
-    color: white;
-    border-color: white;
+    color: var(--primary);
+    border-color: var(--primary);
 }
 
 .cta-buttons .btn-secondary:hover {
-    background: white;
-    color: var(--primary);
+    background: var(--primary);
+    color: var(--bg-dark);
 }
 
 /* ========== FOOTER ========== */
